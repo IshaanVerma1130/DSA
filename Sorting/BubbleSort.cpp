@@ -9,12 +9,12 @@ using namespace std;
 
 void BubbleSort(int arr[], int n)
 {
-  for (int k = 0; k < n - 1; k++)
+  for (int k = 0; k < n - 1; k++) // We go from k = 0 to n-1
   {
     bool flag = false;
-    for (int i = 0; i < n - k - 1; i++)
+    for (int i = 0; i < n - k - 1; i++) // We go from i = 0 to n-k-1 (As the elements from n-1 till (n-1)-k are already sorted)
     {
-      if (arr[i] > arr[i + 1])
+      if (arr[i] > arr[i + 1]) // If we find elements to swap set flag to true
       {
         int temp = arr[i];
         arr[i] = arr[i + 1];
