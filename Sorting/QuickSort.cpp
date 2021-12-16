@@ -1,14 +1,21 @@
 #include <iostream>
 using namespace std;
 
+// Pivot == Partition
+
+// Choose a pivot (We chose the end index for pivot)
+// Partition the array in such a way that the elements before the pivot all all less than the pivot and all elements after the pivot are all
+// greater than the pivot
+// Again partition both arrays to the left and right of the pivot element
+
 int partition(int arr[], int start, int end)
 {
-  int pivot = arr[end];
+  int partitionValue = arr[end];
   int partitionIndex = start;
 
   for (int i = start; i < end; i++)
   {
-    if (arr[i] <= pivot)
+    if (arr[i] <= partitionValue)
     {
       swap(arr[i], arr[partitionIndex]);
       partitionIndex++;

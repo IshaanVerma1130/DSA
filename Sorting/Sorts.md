@@ -7,3 +7,4 @@ Average - O(n^2)
 Average - O(nLogn)
 
 1. Merge - Stable - Space O(n)
+2. Quick - Worst O(n^2)
