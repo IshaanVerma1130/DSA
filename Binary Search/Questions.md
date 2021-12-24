@@ -2,4 +2,5 @@
 2. Agnostic array (Maybe descending or ascending)
 3. First and last occurenece of an element
 4. Count of element in an array
-5. Number of times an array is rotated (distinct elements)
+5. Number of times an array is rotated (distinct elements) (from right to left)
+6. Find element in rotated sorted array (distinct elements) (from right to left)
