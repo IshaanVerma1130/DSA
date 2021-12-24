@@ -15,3 +15,5 @@
 8. Find floor of element in sorted array
 
 9. Find ceil of element in sorted array
+
+10. Next letter in a sorted array of alphabets
