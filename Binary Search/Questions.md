@@ -19,3 +19,5 @@
 10. Next letter in a sorted array of alphabets
 
 11. Find element in infinite sorted array
+
+12. Find first '1' in infinite binary sorted array
