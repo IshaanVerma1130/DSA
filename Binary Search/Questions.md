@@ -13,3 +13,5 @@
 7. Find element in a nearly sorted array (element at i an be at i-1 or i+1)
 
 8. Find floor of element in sorted array
+
+9. Find ceil of element in sorted array
