@@ -3,6 +3,8 @@ using namespace std;
 
 // Count of element in an array
 
+// Last occurence - first occurence + 1
+
 int firstOccurence(int arr[], int n, int key)
 {
   int start = 0;

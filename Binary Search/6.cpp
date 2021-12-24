@@ -3,6 +3,8 @@ using namespace std;
 
 // Find element in rotated sorted array (distinct elements) (from right to left)
 
+// Find smallest element then apply bs on right and left half of that element
+
 int BinarySearch(int arr[], int start, int end, int key)
 {
   while (start <= end)

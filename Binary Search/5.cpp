@@ -3,6 +3,8 @@ using namespace std;
 
 // Number of times an array is rotated (distinct elements) (from right to left)
 
+// Find smallest element
+
 int count(int arr[], int n)
 {
   int start = 0;
