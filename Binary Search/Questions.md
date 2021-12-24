@@ -21,3 +21,5 @@
 11. Find element in infinite sorted array
 
 12. Find first '1' in infinite binary sorted array
+
+13. Find min absolute difference with a given element in a sorted array
