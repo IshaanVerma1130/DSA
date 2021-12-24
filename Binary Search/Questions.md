@@ -17,3 +17,5 @@
 9. Find ceil of element in sorted array
 
 10. Next letter in a sorted array of alphabets
+
+11. Find element in infinite sorted array
