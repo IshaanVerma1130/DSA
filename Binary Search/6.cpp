@@ -64,11 +64,11 @@ int search(int arr[], int n, int key)
   int bsLeft = BinarySearch(arr, 0, index - 1, key);
   int bsRight = BinarySearch(arr, index, n - 1, key);
 
-  if (bsRight == -1 & bsLeft == -1)
+  if (bsRight == -1 && bsLeft == -1)
     return -1;
-  if (bsRight != -1 & bsLeft == -1)
+  if (bsRight != -1 && bsLeft == -1)
     return bsRight;
-  if (bsRight == -1 & bsLeft != -1)
+  if (bsRight == -1 && bsLeft != -1)
     return bsLeft;
 }
 

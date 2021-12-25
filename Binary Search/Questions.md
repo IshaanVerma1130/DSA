@@ -25,3 +25,7 @@
 13. Find min absolute difference with a given element in a sorted array
 
 14. Peak Element
+
+15. Max element in Bitonic Array (first strictly increasing then strictly decreasing)
+
+16. Search for an element in Bitonic array
