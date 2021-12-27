@@ -1,7 +1,9 @@
 # DSA
+
 Interview Prep
 
 ## Sorts
+
 1. Bubble
 2. Selection
 3. Insertion
@@ -9,6 +11,7 @@ Interview Prep
 5. Quick
 
 ## Binary Search
+
 1. Descending Sorted Array
 2. Agnostic array (Maybe descending or ascending)
 3. First and last occurenece of an element
@@ -25,3 +28,4 @@ Interview Prep
 14. Peak Element
 15. Max element in Bitonic Array (first strictly increasing then strictly decreasing)
 16. Search for an element in Bitonic array
+17. Binary Search in 2D matrix

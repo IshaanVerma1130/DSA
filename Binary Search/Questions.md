@@ -29,3 +29,5 @@
 15. Max element in Bitonic Array (first strictly increasing then strictly decreasing)
 
 16. Search for an element in Bitonic array
+
+17. Binary Search in 2D matrix
