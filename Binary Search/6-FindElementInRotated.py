@@ -45,7 +45,11 @@ def FindElement(arr, n, x):
     left_side = BinarySearch(arr, 0, min_element - 1, x)
     right_side = BinarySearch(arr, min_element, n - 1, x)
 
-    return left_side if left_side != -1 else right_side
+    if left_side != -1:
+        return left_side
+    if right_side != -1:
+        return right_side
+    return -1
 
 
 if __name__ == "__main__":
