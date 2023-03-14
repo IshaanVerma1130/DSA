@@ -3,10 +3,10 @@ def CalcTimes(arr, n):
     l = 0
     r = n - 1
 
-    while l <= r:
-        if arr[l] <= arr[r]:
-            return l
+    if arr[l] <= arr[r]:
+        return 0
 
+    while l <= r:
         mid = l + (r - l) // 2
 
         next = (mid + 1) % n
@@ -23,6 +23,6 @@ def CalcTimes(arr, n):
 
 
 if __name__ == "__main__":
-    arr = [15, 18, 2, 3, 6, 12]
+    arr = [3, 4, 5, 1, 2]
     n = len(arr)
     print(CalcTimes(arr, n))
