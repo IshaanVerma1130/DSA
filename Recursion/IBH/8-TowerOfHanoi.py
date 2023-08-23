@@ -9,5 +9,5 @@ def Solve(n, s, d, h):
 
 
 if __name__ == "__main__":
-    n = 10
-    Solve(n, "A", "B", "C")
+    n = 3
+    Solve(n, "S", "D", "H")
