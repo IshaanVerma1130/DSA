@@ -21,7 +21,7 @@ def Solve(wt, diff):
     return dp[n][m]
 
 
-wt = [1, 2, 1, 3]
+wt = [0, 1, 2, 1, 3]
 diff = 1
 print(Solve(wt, diff))
 
