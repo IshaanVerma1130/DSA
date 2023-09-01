@@ -11,12 +11,18 @@ def Solve(x: str, y: str, n: int, m: int) -> int:
             if x[i - 1] == y[j - 1]:
                 dp[i][j] = 1 + dp[i - 1][j - 1]
             else:
-                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+                dp[i][j] = 0
 
-    return dp[n][m]
+    maxEl = -1
+
+    for i in range(n + 1):
+        for j in range(m + 1):
+            maxEl = max(maxEl, dp[i][j])
+
+    return maxEl
 
 
-str1 = "ababa"
-str2 = "cbbcad"
+str1 = "abcde"
+str2 = "abfce"
 
 print(Solve(str1, str2, len(str1), len(str2)))
