@@ -25,4 +25,4 @@ def Solve(arr, k):
     return maxSize
 
 
-print(Solve([4, 1, 1, 1, 2, 3, 5], 5))
+print(Solve([1, 2, 3, 1, 1, 1, 1, 4, 0, 0, 2, 3], 5))
